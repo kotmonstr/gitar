@@ -1,0 +1,849 @@
+2015-11-13 23:36:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "requirements".' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('requirements', Array)
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-11-13 23:36:03 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'hpcd6olh64bres9f8vlcqpr4l5'
+    '_identity' => 'de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ\",2592000]\";}'
+    '_csrf' => '1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gitar.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hpcd6olh64bres9f8vlcqpr4l5; _identity=de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ%22%2C2592000%5D%22%3B%7D; _csrf=1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-5.4\\ext;w:\\modules\\php\\PHP-5.4\\pear;w:\\modules\\php\\PHP-5.4\\pear\\bin;w:\\modules\\php\\PHP-5.4;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.5\\bin;w:\\modules\\http\\Apache-2.2\\bin;w:\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32)'
+    'SERVER_NAME' => 'gitar.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web/index.php'
+    'REMOTE_PORT' => '3778'
+    'REDIRECT_URL' => '/requirements'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/requirements'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447446963.493
+    'REQUEST_TIME' => 1447446963
+    'argv' => []
+    'argc' => 0
+]
+2015-11-13 23:36:37 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "requirements".' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('requirements', Array)
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-11-13 23:36:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'hpcd6olh64bres9f8vlcqpr4l5'
+    '_identity' => 'de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ\",2592000]\";}'
+    '_csrf' => '1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gitar.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hpcd6olh64bres9f8vlcqpr4l5; _identity=de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ%22%2C2592000%5D%22%3B%7D; _csrf=1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-5.4\\ext;w:\\modules\\php\\PHP-5.4\\pear;w:\\modules\\php\\PHP-5.4\\pear\\bin;w:\\modules\\php\\PHP-5.4;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.5\\bin;w:\\modules\\http\\Apache-2.2\\bin;w:\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32)'
+    'SERVER_NAME' => 'gitar.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web/index.php'
+    'REMOTE_PORT' => '3787'
+    'REDIRECT_URL' => '/requirements'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/requirements'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447446997.494
+    'REQUEST_TIME' => 1447446997
+    'argv' => []
+    'argc' => 0
+]
+2015-11-13 23:36:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "requirements".' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('requirements', Array)
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-11-13 23:36:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'hpcd6olh64bres9f8vlcqpr4l5'
+    '_identity' => 'de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ\",2592000]\";}'
+    '_csrf' => '1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gitar.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hpcd6olh64bres9f8vlcqpr4l5; _identity=de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ%22%2C2592000%5D%22%3B%7D; _csrf=1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-5.4\\ext;w:\\modules\\php\\PHP-5.4\\pear;w:\\modules\\php\\PHP-5.4\\pear\\bin;w:\\modules\\php\\PHP-5.4;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.5\\bin;w:\\modules\\http\\Apache-2.2\\bin;w:\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32)'
+    'SERVER_NAME' => 'gitar.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web/index.php'
+    'REMOTE_PORT' => '3786'
+    'REDIRECT_URL' => '/requirements'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/requirements'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447447000.003
+    'REQUEST_TIME' => 1447447000
+    'argv' => []
+    'argc' => 0
+]
+2015-11-13 23:37:50 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index-tes".' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index-tes', Array)
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-11-13 23:37:50 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'hpcd6olh64bres9f8vlcqpr4l5'
+    '_identity' => 'de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ\",2592000]\";}'
+    '_csrf' => '1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gitar.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hpcd6olh64bres9f8vlcqpr4l5; _identity=de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ%22%2C2592000%5D%22%3B%7D; _csrf=1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-5.4\\ext;w:\\modules\\php\\PHP-5.4\\pear;w:\\modules\\php\\PHP-5.4\\pear\\bin;w:\\modules\\php\\PHP-5.4;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.5\\bin;w:\\modules\\http\\Apache-2.2\\bin;w:\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32)'
+    'SERVER_NAME' => 'gitar.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web/index.php'
+    'REMOTE_PORT' => '3789'
+    'REDIRECT_URL' => '/index-tes'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index-tes'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447447070.19
+    'REQUEST_TIME' => 1447447070
+    'argv' => []
+    'argc' => 0
+]
+2015-11-13 23:37:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index-test".' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index-test', Array)
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-11-13 23:37:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'hpcd6olh64bres9f8vlcqpr4l5'
+    '_identity' => 'de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ\",2592000]\";}'
+    '_csrf' => '1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gitar.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hpcd6olh64bres9f8vlcqpr4l5; _identity=de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ%22%2C2592000%5D%22%3B%7D; _csrf=1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-5.4\\ext;w:\\modules\\php\\PHP-5.4\\pear;w:\\modules\\php\\PHP-5.4\\pear\\bin;w:\\modules\\php\\PHP-5.4;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.5\\bin;w:\\modules\\http\\Apache-2.2\\bin;w:\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32)'
+    'SERVER_NAME' => 'gitar.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web/index.php'
+    'REMOTE_PORT' => '3789'
+    'REDIRECT_URL' => '/index-test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index-test'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447447076.811
+    'REQUEST_TIME' => 1447447076
+    'argv' => []
+    'argc' => 0
+]
+2015-11-13 23:38:03 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2_advanced_tests'' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare(true)
+#6 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#8 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all(NULL)
+#9 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\models\News.php(73): yii\db\ActiveQuery->all()
+#10 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\controllers\SiteController.php(90): frontend\models\News::getlastNews(8)
+#11 [internal function]: frontend\controllers\SiteController->actionIndex()
+#12 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#15 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#16 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index-test.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2_advanced_tests'' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare(true)
+#4 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#6 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all(NULL)
+#7 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\models\News.php(73): yii\db\ActiveQuery->all()
+#8 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\controllers\SiteController.php(90): frontend\models\News::getlastNews(8)
+#9 [internal function]: frontend\controllers\SiteController->actionIndex()
+#10 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#13 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#14 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index-test.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2015-11-13 23:38:03 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'hpcd6olh64bres9f8vlcqpr4l5'
+    '_identity' => 'de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ\",2592000]\";}'
+    '_csrf' => '1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'gitar.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hpcd6olh64bres9f8vlcqpr4l5; _identity=de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ%22%2C2592000%5D%22%3B%7D; _csrf=1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-5.4\\ext;w:\\modules\\php\\PHP-5.4\\pear;w:\\modules\\php\\PHP-5.4\\pear\\bin;w:\\modules\\php\\PHP-5.4;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.5\\bin;w:\\modules\\http\\Apache-2.2\\bin;w:\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32)'
+    'SERVER_NAME' => 'gitar.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web/index-test.php'
+    'REMOTE_PORT' => '3789'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index-test.php'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1447447083.558
+    'REQUEST_TIME' => 1447447083
+    'argv' => []
+    'argc' => 0
+]
+2015-11-13 23:42:07 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2_advanced_tests'' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare(true)
+#6 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#8 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all(NULL)
+#9 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\models\News.php(73): yii\db\ActiveQuery->all()
+#10 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\controllers\SiteController.php(90): frontend\models\News::getlastNews(8)
+#11 [internal function]: frontend\controllers\SiteController->actionIndex()
+#12 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#15 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#16 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index-test.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2_advanced_tests'' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare(true)
+#4 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#6 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all(NULL)
+#7 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\models\News.php(73): yii\db\ActiveQuery->all()
+#8 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\controllers\SiteController.php(90): frontend\models\News::getlastNews(8)
+#9 [internal function]: frontend\controllers\SiteController->actionIndex()
+#10 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#13 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#14 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index-test.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2015-11-13 23:42:07 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'hpcd6olh64bres9f8vlcqpr4l5'
+    '_identity' => 'de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ\",2592000]\";}'
+    '_csrf' => '1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'gitar.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hpcd6olh64bres9f8vlcqpr4l5; _identity=de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ%22%2C2592000%5D%22%3B%7D; _csrf=1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-5.4\\ext;w:\\modules\\php\\PHP-5.4\\pear;w:\\modules\\php\\PHP-5.4\\pear\\bin;w:\\modules\\php\\PHP-5.4;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.5\\bin;w:\\modules\\http\\Apache-2.2\\bin;w:\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32)'
+    'SERVER_NAME' => 'gitar.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web/index-test.php'
+    'REMOTE_PORT' => '3800'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index-test.php'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1447447327.265
+    'REQUEST_TIME' => 1447447327
+    'argv' => []
+    'argc' => 0
+]
+2015-11-13 23:46:29 [127.0.0.1][-][-][error][Swift_TransportException] exception 'Swift_TransportException' with message 'Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/answer/14257 ey10sm3393024lbc.29 - gsmtp
+"' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php:383
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('535-5.7.8 Usern...', Array)
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php(243): Swift_Transport_AbstractSmtpTransport->executeCommand('RSET\r\n', Array, Array)
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\Auth\XOAuth2Authenticator.php(55): Swift_Transport_EsmtpTransport->executeCommand('RSET\r\n', Array)
+#3 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php(176): Swift_Transport_Esmtp_Auth_XOAuth2Authenticator->authenticate(Object(Swift_SmtpTransport), 'toozzatest@gmai...', 'test_company')
+#4 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#6 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#7 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2-swiftmailer\Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#8 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\mail\BaseMailer.php(260): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\mail\BaseMessage.php(48): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\controllers\MessageController.php(90): yii\mail\BaseMessage->send()
+#11 [internal function]: frontend\controllers\MessageController->actionCreateFromUser()
+#12 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create-from-use...', Array)
+#15 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('message/create-...', Array)
+#16 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2015-11-13 23:46:27 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'THo4UUpwRnQ9LAsOCDEtICoifzYCSRQ9CzBXFhUFN0Q.HX0zM0AINQ=='
+    'Message' => [
+        'name' => 'wrbg'
+        'tel' => 'ergb'
+        'email' => 'kot@wdc.tt'
+        'message' => 'ergberberbg'
+        'captcha' => 'aam'
+        'created_at' => '1447447554'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hpcd6olh64bres9f8vlcqpr4l5'
+    '_identity' => 'de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ\",2592000]\";}'
+    '_csrf' => '1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gitar.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '236'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://gitar.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://gitar.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hpcd6olh64bres9f8vlcqpr4l5; _identity=de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ%22%2C2592000%5D%22%3B%7D; _csrf=1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-5.4\\ext;w:\\modules\\php\\PHP-5.4\\pear;w:\\modules\\php\\PHP-5.4\\pear\\bin;w:\\modules\\php\\PHP-5.4;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.5\\bin;w:\\modules\\http\\Apache-2.2\\bin;w:\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32)'
+    'SERVER_NAME' => 'gitar.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web/index.php'
+    'REMOTE_PORT' => '3823'
+    'REDIRECT_URL' => '/message/create-from-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/message/create-from-user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447447587.209
+    'REQUEST_TIME' => 1447447587
+    'argv' => []
+    'argc' => 0
+]
+2015-11-13 23:47:12 [127.0.0.1][-][-][error][Swift_TransportException] exception 'Swift_TransportException' with message 'Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/answer/14257 l5sm3379848lbc.36 - gsmtp
+"' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php:383
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('535-5.7.8 Usern...', Array)
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php(243): Swift_Transport_AbstractSmtpTransport->executeCommand('RSET\r\n', Array, Array)
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\Auth\XOAuth2Authenticator.php(55): Swift_Transport_EsmtpTransport->executeCommand('RSET\r\n', Array)
+#3 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php(176): Swift_Transport_Esmtp_Auth_XOAuth2Authenticator->authenticate(Object(Swift_SmtpTransport), 'toozzatest@gmai...', 'test_company')
+#4 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#6 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#7 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2-swiftmailer\Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#8 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\mail\BaseMailer.php(260): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\mail\BaseMessage.php(48): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\controllers\ReviewController.php(88): yii\mail\BaseMessage->send()
+#11 [internal function]: frontend\controllers\ReviewController->actionCreateFromUser()
+#12 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create-from-use...', Array)
+#15 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('review/create-f...', Array)
+#16 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2015-11-13 23:47:11 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'dWM3eFQ5RHUENQQnFngvIRM7cB8cABY8MilYPwtMNUUHBHIaLQkKNA=='
+    'Review' => [
+        'name' => '23f'
+        'message' => '23rf23rf'
+        'captcha' => 'aam'
+        'created_at' => '1447447619'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hpcd6olh64bres9f8vlcqpr4l5'
+    '_identity' => 'de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ\",2592000]\";}'
+    '_csrf' => '1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gitar.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '174'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://gitar.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://gitar.loc/site/review'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hpcd6olh64bres9f8vlcqpr4l5; _identity=de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ%22%2C2592000%5D%22%3B%7D; _csrf=1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-5.4\\ext;w:\\modules\\php\\PHP-5.4\\pear;w:\\modules\\php\\PHP-5.4\\pear\\bin;w:\\modules\\php\\PHP-5.4;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.5\\bin;w:\\modules\\http\\Apache-2.2\\bin;w:\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32)'
+    'SERVER_NAME' => 'gitar.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web/index.php'
+    'REMOTE_PORT' => '3828'
+    'REDIRECT_URL' => '/review/create-from-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/review/create-from-user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447447631.398
+    'REQUEST_TIME' => 1447447631
+    'argv' => []
+    'argc' => 0
+]
+2015-11-13 23:50:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "upload/items_images_main/undefined".' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('upload/items_im...', Array)
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-11-13 23:50:07 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'hpcd6olh64bres9f8vlcqpr4l5'
+    '_identity' => 'de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ\",2592000]\";}'
+    '_csrf' => '1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA\";}'
+    '_ym_uid' => '1447447700479823642'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gitar.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://gitar.loc/items/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hpcd6olh64bres9f8vlcqpr4l5; _identity=de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ%22%2C2592000%5D%22%3B%7D; _csrf=1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA%22%3B%7D; _ym_uid=1447447700479823642'
+    'PATH' => 'w:\\modules\\php\\PHP-5.4\\ext;w:\\modules\\php\\PHP-5.4\\pear;w:\\modules\\php\\PHP-5.4\\pear\\bin;w:\\modules\\php\\PHP-5.4;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.5\\bin;w:\\modules\\http\\Apache-2.2\\bin;w:\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32)'
+    'SERVER_NAME' => 'gitar.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web/index.php'
+    'REMOTE_PORT' => '3917'
+    'REDIRECT_URL' => '/upload/items_images_main/undefined'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/upload/items_images_main/undefined'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447447807.525
+    'REQUEST_TIME' => 1447447807
+    'argv' => []
+    'argc' => 0
+]
+2015-11-13 23:50:12 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "upload/items_images_main/undefined".' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('upload/items_im...', Array)
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-11-13 23:50:12 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'hpcd6olh64bres9f8vlcqpr4l5'
+    '_identity' => 'de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ\",2592000]\";}'
+    '_csrf' => '1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA\";}'
+    '_ym_uid' => '1447447700479823642'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gitar.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://gitar.loc/items/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hpcd6olh64bres9f8vlcqpr4l5; _identity=de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ%22%2C2592000%5D%22%3B%7D; _csrf=1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA%22%3B%7D; _ym_uid=1447447700479823642'
+    'PATH' => 'w:\\modules\\php\\PHP-5.4\\ext;w:\\modules\\php\\PHP-5.4\\pear;w:\\modules\\php\\PHP-5.4\\pear\\bin;w:\\modules\\php\\PHP-5.4;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.5\\bin;w:\\modules\\http\\Apache-2.2\\bin;w:\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32)'
+    'SERVER_NAME' => 'gitar.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web/index.php'
+    'REMOTE_PORT' => '3917'
+    'REDIRECT_URL' => '/upload/items_images_main/undefined'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/upload/items_images_main/undefined'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447447812.593
+    'REQUEST_TIME' => 1447447812
+    'argv' => []
+    'argc' => 0
+]
+2015-11-13 23:50:20 [127.0.0.1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php:781
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(781): PDOStatement->execute()
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Schema.php(448): yii\db\Command->execute()
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\ActiveRecord.php(454): yii\db\Schema->insert('items', Array)
+#3 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#4 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert(true, NULL)
+#5 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\controllers\ItemsController.php(71): yii\db\BaseActiveRecord->save()
+#6 [internal function]: frontend\controllers\ItemsController->actionCreate()
+#7 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('items/create', Array)
+#11 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null
+The SQL being executed was: INSERT INTO `items` (`name`, `cat_id`, `brend_id`, `strings`, `anker`, `form`, `bridj`, `material`, `pie`, `lad`, `inlay`, `shema`, `q_volume`, `q_tone`, `add`, `price`, `main_image`) VALUES ('dghj', 2, 3, '6', 'sdfgjh', 'sfghs', 'fhsf', 'hsfhsfh', 0, 7, 0, '', NULL, NULL, '', NULL, '')' in E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `it...')
+#1 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\Schema.php(448): yii\db\Command->execute()
+#2 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\ActiveRecord.php(454): yii\db\Schema->insert('items', Array)
+#3 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#4 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert(true, NULL)
+#5 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\controllers\ItemsController.php(71): yii\db\BaseActiveRecord->save()
+#6 [internal function]: frontend\controllers\ItemsController->actionCreate()
+#7 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('items/create', Array)
+#11 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\FOR CODING\domens\Gitar\VinnieGuitar\Programm\v2\www\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'price' cannot be null
+)
+
+2015-11-13 23:50:20 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'eDVFdm1BbnoJY3YpLwAFLh5tAhEleDwzP38qMTI0H0oKUgAUFHEgOw=='
+    'Items' => [
+        'name' => 'dghj'
+        'cat_id' => '2'
+        'brend_id' => '3'
+        'strings' => '6'
+        'anker' => 'sdfgjh'
+        'form' => 'sfghs'
+        'bridj' => 'fhsf'
+        'material' => 'hsfhsfh'
+        'pie' => '0'
+        'lad' => '7'
+        'inlay' => '0'
+        'shema' => ''
+        'q_volume' => ''
+        'q_tone' => ''
+        'add' => ''
+        'price' => ''
+        'files' => '14474478183.jpg,14474478185.jpg,14474478186.jpg'
+        'main_image' => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hpcd6olh64bres9f8vlcqpr4l5'
+    '_identity' => 'de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ\",2592000]\";}'
+    '_csrf' => '1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA\";}'
+    '_ym_uid' => '1447447700479823642'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gitar.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '2063'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://gitar.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryAb60oUj0hBNFlXh2'
+    'HTTP_REFERER' => 'http://gitar.loc/items/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hpcd6olh64bres9f8vlcqpr4l5; _identity=de602f58529519dbdef64e24fe92c79186098ecbab476fb4fbfa82b4e2c744d7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221TqwaaXujHiW_S_hnd5xwTnkOuLDVdpQ%22%2C2592000%5D%22%3B%7D; _csrf=1c698c9313796022e449c64e2f0d902b01d28c66b7acb5e49097add954fb1727a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qV3_BAkTfXGgH9RIGJoG_uq0rgEby0NA%22%3B%7D; _ym_uid=1447447700479823642'
+    'PATH' => 'w:\\modules\\php\\PHP-5.4\\ext;w:\\modules\\php\\PHP-5.4\\pear;w:\\modules\\php\\PHP-5.4\\pear\\bin;w:\\modules\\php\\PHP-5.4;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.5\\bin;w:\\modules\\http\\Apache-2.2\\bin;w:\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32)'
+    'SERVER_NAME' => 'gitar.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/FOR CODING/domens/Gitar/VinnieGuitar/Programm/v2/www/frontend/web/index.php'
+    'REMOTE_PORT' => '3918'
+    'REDIRECT_URL' => '/items/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/items/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447447820.403
+    'REQUEST_TIME' => 1447447820
+    'argv' => []
+    'argc' => 0
+]
